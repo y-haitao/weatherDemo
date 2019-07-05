@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "你的天气",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 10
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于你的天气小程序的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
